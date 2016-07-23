@@ -1,0 +1,22 @@
+{
+  "name": "bastiaanh/overheid-kvk",
+  "description": "Overheid.io KvK API Client for PHP",
+  "keywords": ["overheid", "kvk", "overheid.io", "api"],
+  "type": "library",
+  "require": {
+    "php": ">=5.3.0",
+    "ext-curl": "*"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bastiaan",
+      "homepage": "https://github.com/bastiaanh"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Overheid\\": "src"
+    }
+  }
+}
